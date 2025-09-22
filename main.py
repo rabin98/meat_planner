@@ -574,6 +574,44 @@ elif page == "Tracker":
         # Genera 5 settimane di giorni (35 giorni totali)
         giorni_settimana = ["Lun", "Mar", "Mer", "Gio", "Ven", "Sab", "Dom"]
         
+        # CSS personalizzato per i colori dei bottoni
+        st.markdown("""
+        <style>
+        /* Bottoni verdi per variazioni <= 10% */
+        .stButton > button[aria-label*="✅"] {
+            background-color: #28a745 !important;
+            color: white !important;
+            border: 1px solid #28a745 !important;
+        }
+        .stButton > button[aria-label*="✅"]:hover {
+            background-color: #218838 !important;
+            border-color: #1e7e34 !important;
+        }
+        
+        /* Bottoni gialli per variazioni 10-25% */
+        .stButton > button[aria-label*="⚠️"] {
+            background-color: #ffc107 !important;
+            color: #212529 !important;
+            border: 1px solid #ffc107 !important;
+        }
+        .stButton > button[aria-label*="⚠️"]:hover {
+            background-color: #e0a800 !important;
+            border-color: #d39e00 !important;
+        }
+        
+        /* Bottoni rossi per variazioni > 25% */
+        .stButton > button[aria-label*="❌"] {
+            background-color: #dc3545 !important;
+            color: white !important;
+            border: 1px solid #dc3545 !important;
+        }
+        .stButton > button[aria-label*="❌"]:hover {
+            background-color: #c82333 !important;
+            border-color: #bd2130 !important;
+        }
+        </style>
+        """, unsafe_allow_html=True)
+        
         for settimana in range(1, 6):
             st.markdown(f"**Settimana {settimana}**")
             cols = st.columns(7)
@@ -589,23 +627,24 @@ elif page == "Tracker":
                     giorno_data = st.session_state.meal_plan[giorno_id]
                     totali_giorno = calcola_totali_giorno(giorno_data)
                     
-                    # Calcola la percentuale rispetto al target
+                    # Calcola la percentuale di variazione rispetto al target
                     perc_kcal = (totali_giorno['kcal'] / dieta_ref['kcal']) * 100 if dieta_ref['kcal'] > 0 else 0
+                    variazione_perc = abs(perc_kcal - 100)
                     
-                    # Colore in base alla percentuale (verde se vicino al target)
-                    if 90 <= perc_kcal <= 110:
-                        tipo_bottone = "primary"
+                    # Emoji e tipo in base alla variazione percentuale
+                    if variazione_perc <= 10:
                         emoji = "✅"
-                    elif 80 <= perc_kcal <= 120:
-                        tipo_bottone = "secondary"
+                        tipo_bottone = "secondary"  # Usa secondary per tutti, il CSS farà il resto
+                    elif variazione_perc <= 25:
                         emoji = "⚠️"
-                    else:
                         tipo_bottone = "secondary"
+                    else:
                         emoji = "❌"
+                        tipo_bottone = "secondary"
                     
                     # Bottone per ogni giorno
                     if st.button(
-                        f"{emoji} {giorno_nome_breve}\n{numero_giorno}\n{totali_giorno['kcal']:.0f} kcal\n({perc_kcal:.0f}%)",
+                        f"{emoji} {giorno_nome_breve}\n{numero_giorno}\n{totali_giorno['kcal']:.0f} kcal\n(Δ{variazione_perc:.0f}%)",
                         key=f"btn_{numero_giorno}",
                         type=tipo_bottone,
                         use_container_width=True

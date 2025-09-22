@@ -1,162 +1,211 @@
 {
-    "banana": {
-        "kcal": 105,
-        "carbs": 27,
-        "protein": 1.3,
-        "fat": 0.3,
-        "fiber": 3,
-        "tipologia": "carbo"
-    },
-    "pane_integrale": {
-        "kcal": 234,
-        "carbs": 40,
-        "protein": 9,
-        "fat": 2,
-        "fiber": 6,
-        "tipologia": ["carbo"]
-    },
-    "latte_ps": {
-        "kcal": 46,
-        "carbs": 4.8,
-        "protein": 3.3,
-        "fat": 1.6,
-        "fiber": 0,
-        "tipologia": ["grassi", "prote"]
-    },
-    "whey": {
-        "kcal": 400,
-        "carbs": 10,
-        "protein": 80,
-        "fat": 5,
-        "fiber": 0,
-        "tipologia": ["prote"]
-    },
-    "riso": {
-        "kcal": 360,
-        "carbs": 80,
-        "protein": 7,
-        "fat": 0.7,
-        "fiber": 1.3,
-        "tipologia": ["carbo"]
-    },
-    "pasta": {
-        "kcal": 350,
-        "carbs": 71,
-        "protein": 12,
-        "fat": 1.5,
-        "fiber": 3,
-        "tipologia": ["carbo"]
-    },
-    "pollo": {
-        "kcal": 110,
-        "carbs": 0,
-        "protein": 23,
-        "fat": 1.5,
-        "fiber": 0,
-        "tipologia": ["prote"]
-    },
-    "tacchino": {
-        "kcal": 104,
-        "carbs": 0,
-        "protein": 24,
-        "fat": 1,
-        "fiber": 0,
-        "tipologia": ["prote"]
-    },
-    "manzo": {
-        "kcal": 250,
-        "carbs": 0,
-        "protein": 26,
-        "fat": 17,
-        "fiber": 0,
-        "tipologia": ["prote"]
-    },
-    "legumi": {
-        "kcal": 115,
-        "carbs": 20,
-        "protein": 8,
-        "fat": 0.5,
-        "fiber": 8,
-        "tipologia": ["carbo", "prote"]
-    },
-    "pesce_azzurro": {
-        "kcal": 200,
-        "carbs": 0,
-        "protein": 20,
-        "fat": 13,
-        "fiber": 0,
-        "tipologia": ["prote", "grassi"]
-    },
-    "mozzarella": {
-        "kcal": 280,
-        "carbs": 2,
-        "protein": 28,
-        "fat": 17,
-        "fiber": 0,
-        "tipologia": ["prote", "grassi"]
-    },
-    "olio_evo": {
-        "kcal": 900,
-        "carbs": 0,
-        "protein": 0,
-        "fat": 100,
-        "fiber": 0,
-        "tipologia": ["grassi"]
-    },
-    "frutto": {
-        "kcal": 80,
-        "carbs": 21,
-        "protein": 0.5,
-        "fat": 0.3,
-        "fiber": 3,
-        "tipologia": ["carbo", "fibre"]
-    },
-    "yogurt_greco_0": {
-        "kcal": 59,
-        "carbs": 3.6,
-        "protein": 10,
-        "fat": 0,
-        "fiber": 0,
-        "tipologia": ["prote"]
-    },
-    "cereali_integrali": {
-        "kcal": 367,
-        "carbs": 73,
-        "protein": 13,
-        "fat": 6.7,
-        "fiber": 10,
-        "tipologia": ["carbo", "fibre"]
-    },
-    "caffe_amaro": {
-        "kcal": 2,
-        "carbs": 0,
-        "protein": 0.3,
-        "fat": 0,
-        "fiber": 0,
-        "tipologia": []
-    },
-    "EAA": {
-        "kcal": 20,
-        "carbs": 1,
-        "protein": 4,
-        "fat": 0,
-        "fiber": 0,
-        "tipologia": []
-    },
-    "creatina": {
-        "kcal": 0,
-        "carbs": 0,
-        "protein": 0,
-        "fat": 0,
-        "fiber": 0,
-        "tipologia": []
-    },
-    "multivitaminico": {
-        "kcal": 0,
-        "carbs": 0,
-        "protein": 0,
-        "fat": 0,
-        "fiber": 0,
-        "tipologia": []
-    }
+  "EAA": {
+    "kcal": 20,
+    "carbs": 1,
+    "protein": 4,
+    "fat": 0,
+    "fiber": 0,
+    "tipologia": []
+  },
+  "banana": {
+    "kcal": 105,
+    "carbs": 27,
+    "protein": 1.3,
+    "fat": 0.3,
+    "fiber": 3,
+    "tipologia": [
+      "carbs"
+    ]
+  },
+  "caffe_amaro": {
+    "kcal": 2,
+    "carbs": 0,
+    "protein": 0.3,
+    "fat": 0,
+    "fiber": 0,
+    "tipologia": []
+  },
+  "cereali_integrali": {
+    "kcal": 367,
+    "carbs": 73,
+    "protein": 13,
+    "fat": 6.7,
+    "fiber": 10,
+    "tipologia": [
+      "carbs",
+      "fiber"
+    ]
+  },
+  "creatina": {
+    "kcal": 0,
+    "carbs": 0,
+    "protein": 0,
+    "fat": 0,
+    "fiber": 0,
+    "tipologia": []
+  },
+  "frutto": {
+    "kcal": 80,
+    "carbs": 21,
+    "protein": 0.5,
+    "fat": 0.3,
+    "fiber": 3,
+    "tipologia": [
+      "carbs",
+      "fiber"
+    ]
+  },
+  "latte_ps": {
+    "kcal": 46,
+    "carbs": 4.8,
+    "protein": 3.3,
+    "fat": 1.6,
+    "fiber": 0,
+    "tipologia": [
+      "fat",
+      "protein"
+    ]
+  },
+  "legumi": {
+    "kcal": 115,
+    "carbs": 20,
+    "protein": 8,
+    "fat": 0.5,
+    "fiber": 8,
+    "tipologia": [
+      "carbs",
+      "protein"
+    ]
+  },
+  "manzo": {
+    "kcal": 250,
+    "carbs": 0,
+    "protein": 26,
+    "fat": 17,
+    "fiber": 0,
+    "tipologia": [
+      "protein"
+    ]
+  },
+  "mozzarella": {
+    "kcal": 280,
+    "carbs": 2,
+    "protein": 28,
+    "fat": 17,
+    "fiber": 0,
+    "tipologia": [
+      "protein",
+      "fat"
+    ]
+  },
+  "multivitaminico": {
+    "kcal": 0,
+    "carbs": 0,
+    "protein": 0,
+    "fat": 0,
+    "fiber": 0,
+    "tipologia": []
+  },
+  "olio_evo": {
+    "kcal": 900,
+    "carbs": 0,
+    "protein": 0,
+    "fat": 100,
+    "fiber": 0,
+    "tipologia": [
+      "fat"
+    ]
+  },
+  "pane_integrale": {
+    "kcal": 234,
+    "carbs": 40,
+    "protein": 9,
+    "fat": 2,
+    "fiber": 6,
+    "tipologia": [
+      "carbs"
+    ]
+  },
+  "pasta": {
+    "kcal": 350,
+    "carbs": 71,
+    "protein": 12,
+    "fat": 1.5,
+    "fiber": 3,
+    "tipologia": [
+      "carbs"
+    ]
+  },
+  "pesce_azzurro": {
+    "kcal": 200,
+    "carbs": 0,
+    "protein": 20,
+    "fat": 13,
+    "fiber": 0,
+    "tipologia": [
+      "protein",
+      "fat"
+    ]
+  },
+  "pollo": {
+    "kcal": 110,
+    "carbs": 0,
+    "protein": 23,
+    "fat": 1.5,
+    "fiber": 0,
+    "tipologia": [
+      "protein"
+    ]
+  },
+  "riso": {
+    "kcal": 360,
+    "carbs": 80,
+    "protein": 7,
+    "fat": 0.7,
+    "fiber": 1.3,
+    "tipologia": [
+      "carbs"
+    ]
+  },
+  "tacchino": {
+    "kcal": 104,
+    "carbs": 0,
+    "protein": 24,
+    "fat": 1,
+    "fiber": 0,
+    "tipologia": [
+      "protein"
+    ]
+  },
+  "uovo": {
+    "kcal": 128.0,
+    "carbs": 1.9,
+    "protein": 12.4,
+    "fat": 8.7,
+    "fiber": 0.0,
+    "tipologia": [
+      "protein",
+      "fat"
+    ]
+  },
+  "whey": {
+    "kcal": 400,
+    "carbs": 10,
+    "protein": 80,
+    "fat": 5,
+    "fiber": 0,
+    "tipologia": [
+      "protein"
+    ]
+  },
+  "yogurt_greco_0": {
+    "kcal": 59,
+    "carbs": 3.6,
+    "protein": 10,
+    "fat": 0,
+    "fiber": 0,
+    "tipologia": [
+      "protein"
+    ]
+  }
 }

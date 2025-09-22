@@ -183,20 +183,34 @@ def reset_a_dieta():
 
 
 def calcola_recap_settimanale():
-    """Calcola il recap di tutti i 35 giorni"""
+    """Calcola il recap di tutti i 35 giorni suddivisi per settimane"""
     recap = {}
-    totali_periodo = {"kcal": 0, "carbo": 0, "proteine": 0, "grassi": 0, "fibre": 0}
     
+    # Calcola i totali per ogni singolo giorno
     for day in DAYS:
         giorno_data = st.session_state.meal_plan[day]
         totali_giorno = calcola_totali_giorno(giorno_data)
         recap[day] = totali_giorno
-        
-        for k in totali_periodo:
-            totali_periodo[k] += totali_giorno[k]
     
-    recap["totali_periodo"] = totali_periodo
-    recap["media_giornaliera"] = {k: v / 35 for k, v in totali_periodo.items()}
+    # Calcola i totali per ogni settimana (7 giorni per settimana)
+    recap["settimane"] = {}
+    for settimana in range(1, 6):  # 5 settimane
+        totali_settimana = {"kcal": 0, "carbo": 0, "proteine": 0, "grassi": 0, "fibre": 0}
+        giorni_settimana = []
+        
+        for giorno_idx in range(7):  # 7 giorni per settimana
+            numero_giorno = (settimana - 1) * 7 + giorno_idx + 1
+            giorno_id = f"Giorno_{numero_giorno}"
+            giorni_settimana.append(giorno_id)
+            
+            totali_giorno = recap[giorno_id]
+            for k in totali_settimana:
+                totali_settimana[k] += totali_giorno[k]
+        
+        recap["settimane"][f"settimana_{settimana}"] = {
+            "totali": totali_settimana,
+            "giorni": giorni_settimana
+        }
     
     return recap
 
@@ -507,94 +521,86 @@ elif page == "Recap":
     
     st.markdown("---")
     
-    # Tabella riassuntiva dei giorni
-    st.subheader("📅 Valori per Giorno")
+    st.markdown("---")
     
-    data_giorni = []
-    for day in DAYS:
-        totali_giorno = recap_attuale[day]
-        # Estrai il numero del giorno dal nome (es. "Giorno_1" -> "1")
-        numero_giorno = day.split('_')[1]
-        data_giorni.append({
-            "Giorno": numero_giorno,
-            "Kcal": f"{totali_giorno['kcal']:.0f}",
-            "Carboidrati (g)": f"{totali_giorno['carbo']:.1f}",
-            "Proteine (g)": f"{totali_giorno['proteine']:.1f}",
-            "Grassi (g)": f"{totali_giorno['grassi']:.1f}",
-            "Fibre (g)": f"{totali_giorno['fibre']:.1f}"
-        })
+    # Visualizzazione per settimane
+    st.subheader("📊 Analisi per Settimane")
     
-    st.table(data_giorni)
+    for settimana_num in range(1, 6):  # 5 settimane
+        settimana_key = f"settimana_{settimana_num}"
+        settimana_data = recap_attuale["settimane"][settimana_key]
+        totali_settimana = settimana_data["totali"]
+        giorni_settimana = settimana_data["giorni"]
+        
+        with st.expander(f"📅 Settimana {settimana_num}", expanded=False):
+            # Metriche totali della settimana
+            st.markdown("**Totali Settimana**")
+            target_settimana = {k: v * 7 for k, v in dieta_ref.items()}
+            
+            col1, col2, col3, col4, col5 = st.columns(5)
+            
+            with col1:
+                delta = totali_settimana["kcal"] - target_settimana["kcal"]
+                st.metric("Kcal", f"{totali_settimana['kcal']:.1f}", f"{delta:+.1f}")
+            
+            with col2:
+                delta = totali_settimana["carbo"] - target_settimana["carbo"]
+                st.metric("Carboidrati (g)", f"{totali_settimana['carbo']:.1f}", f"{delta:+.1f}")
+            
+            with col3:
+                delta = totali_settimana["proteine"] - target_settimana["proteine"]
+                st.metric("Proteine (g)", f"{totali_settimana['proteine']:.1f}", f"{delta:+.1f}")
+            
+            with col4:
+                delta = totali_settimana["grassi"] - target_settimana["grassi"]
+                st.metric("Grassi (g)", f"{totali_settimana['grassi']:.1f}", f"{delta:+.1f}")
+            
+            with col5:
+                delta = totali_settimana["fibre"] - target_settimana["fibre"]
+                st.metric("Fibre (g)", f"{totali_settimana['fibre']:.1f}", f"{delta:+.1f}")
     
     st.markdown("---")
     
-    # Totali e medie del periodo (35 giorni)
-    col1, col2 = st.columns(2)
+    # Dettagli per ogni giorno (raggruppati per settimana)
+    st.subheader("🔍 Dettagli Completi per Giorno")
     
-    with col1:
-        st.subheader("📈 Totali del Periodo (35 giorni)")
-        totali_periodo = recap_attuale["totali_periodo"]
-        target_periodo = {k: v * 35 for k, v in dieta_ref.items()}
+    for settimana_num in range(1, 6):  # 5 settimane
+        st.markdown(f"### Settimana {settimana_num}")
+        settimana_key = f"settimana_{settimana_num}"
+        giorni_settimana = recap_attuale["settimane"][settimana_key]["giorni"]
         
-        for nutriente in ["kcal", "carbo", "proteine", "grassi", "fibre"]:
-            delta = totali_periodo[nutriente] - target_periodo[nutriente]
-            unita = "kcal" if nutriente == "kcal" else "g"
-            st.metric(
-                f"{nutriente.title()}",
-                f"{totali_periodo[nutriente]:.1f} {unita}",
-                f"{delta:+.1f} {unita}"
-            )
-    
-    with col2:
-        st.subheader("📊 Medie Giornaliere")
-        medie = recap_attuale["media_giornaliera"]
-        
-        for nutriente in ["kcal", "carbo", "proteine", "grassi", "fibre"]:
-            delta = medie[nutriente] - dieta_ref[nutriente]
-            unita = "kcal" if nutriente == "kcal" else "g"
-            st.metric(
-                f"{nutriente.title()} (media)",
-                f"{medie[nutriente]:.1f} {unita}",
-                f"{delta:+.1f} {unita}"
-            )
-    
-    st.markdown("---")
-    
-    # Dettagli per ogni giorno
-    st.subheader("🔍 Dettagli per Giorno")
-    
-    for day in DAYS:
-        # Estrai il numero del giorno per la visualizzazione
-        numero_giorno = day.split('_')[1]
-        with st.expander(f"Giorno {numero_giorno} - Dettagli"):
-            giorno_data = st.session_state.meal_plan[day]
-            totali_giorno = recap_attuale[day]
-            
-            # Mostra differenza rispetto ai target
-            st.info(
-                f"**Target vs Reale:** "
-                f"Kcal: {totali_giorno['kcal']:.0f}/{dieta_ref['kcal']:.0f} "
-                f"({totali_giorno['kcal'] - dieta_ref['kcal']:+.0f}) | "
-                f"Proteine: {totali_giorno['proteine']:.1f}/{dieta_ref['proteine']:.1f} g "
-                f"({totali_giorno['proteine'] - dieta_ref['proteine']:+.1f}) | "
-                f"Carbo: {totali_giorno['carbo']:.1f}/{dieta_ref['carbo']:.1f} g "
-                f"({totali_giorno['carbo'] - dieta_ref['carbo']:+.1f})"
-            )
-            
-            # Mostra i pasti del giorno
-            for nome_pasto, alimenti in giorno_data.items():
-                st.write(f"**{nome_pasto}:**")
-                if alimenti:
-                    for alimento in alimenti:
-                        st.write(f"  • {alimento['alimento']}: {alimento['quantita']}g")
-                else:
-                    st.write("  • Nessun alimento")
+        for giorno_id in giorni_settimana:
+            # Estrai il numero del giorno per la visualizzazione
+            numero_giorno = giorno_id.split('_')[1]
+            with st.expander(f"Giorno {numero_giorno} - Dettagli"):
+                giorno_data = st.session_state.meal_plan[giorno_id]
+                totali_giorno = recap_attuale[giorno_id]
                 
-                valori_pasto = calcola_nutrienti(alimenti)
-                st.caption(
-                    f"  {valori_pasto['kcal']:.0f} kcal | "
-                    f"P: {valori_pasto['proteine']:.1f}g | "
-                    f"C: {valori_pasto['carbo']:.1f}g | "
-                    f"G: {valori_pasto['grassi']:.1f}g | "
-                    f"F: {valori_pasto['fibre']:.1f}g"
+                # Mostra differenza rispetto ai target
+                st.info(
+                    f"**Target vs Reale:** "
+                    f"Kcal: {totali_giorno['kcal']:.0f}/{dieta_ref['kcal']:.0f} "
+                    f"({totali_giorno['kcal'] - dieta_ref['kcal']:+.0f}) | "
+                    f"Proteine: {totali_giorno['proteine']:.1f}/{dieta_ref['proteine']:.1f} g "
+                    f"({totali_giorno['proteine'] - dieta_ref['proteine']:+.1f}) | "
+                    f"Carbo: {totali_giorno['carbo']:.1f}/{dieta_ref['carbo']:.1f} g "
+                    f"({totali_giorno['carbo'] - dieta_ref['carbo']:+.1f})"
                 )
+                
+                # Mostra i pasti del giorno
+                for nome_pasto, alimenti in giorno_data.items():
+                    st.write(f"**{nome_pasto}:**")
+                    if alimenti:
+                        for alimento in alimenti:
+                            st.write(f"  • {alimento['alimento']}: {alimento['quantita']}g")
+                    else:
+                        st.write("  • Nessun alimento")
+                    
+                    valori_pasto = calcola_nutrienti(alimenti)
+                    st.caption(
+                        f"  {valori_pasto['kcal']:.0f} kcal | "
+                        f"P: {valori_pasto['proteine']:.1f}g | "
+                        f"C: {valori_pasto['carbo']:.1f}g | "
+                        f"G: {valori_pasto['grassi']:.1f}g | "
+                        f"F: {valori_pasto['fibre']:.1f}g"
+                    )

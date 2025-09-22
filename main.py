@@ -25,10 +25,13 @@ with open("meals.json", "r", encoding="utf-8") as f:
     MEALS = json.load(f)
 
 with open("days.json", "r", encoding="utf-8") as f:
-    DAYS = json.load(f)
+    DAYS_ORIGINAL = json.load(f)
 
 with open("dieta.json", "r", encoding="utf-8") as f:
     DIETA = json.load(f)
+
+# Genera 35 giorni indipendenti (5 settimane x 7 giorni)
+DAYS = [f"Giorno_{i + 1}" for i in range(35)]
 
 # ==========================
 # Funzioni di utilità
@@ -180,20 +183,20 @@ def reset_a_dieta():
 
 
 def calcola_recap_settimanale():
-    """Calcola il recap settimanale di tutti i giorni"""
+    """Calcola il recap di tutti i 35 giorni"""
     recap = {}
-    totali_settimana = {"kcal": 0, "carbo": 0, "proteine": 0, "grassi": 0, "fibre": 0}
+    totali_periodo = {"kcal": 0, "carbo": 0, "proteine": 0, "grassi": 0, "fibre": 0}
     
     for day in DAYS:
         giorno_data = st.session_state.meal_plan[day]
         totali_giorno = calcola_totali_giorno(giorno_data)
         recap[day] = totali_giorno
         
-        for k in totali_settimana:
-            totali_settimana[k] += totali_giorno[k]
+        for k in totali_periodo:
+            totali_periodo[k] += totali_giorno[k]
     
-    recap["totali_settimana"] = totali_settimana
-    recap["media_giornaliera"] = {k: v / 7 for k, v in totali_settimana.items()}
+    recap["totali_periodo"] = totali_periodo
+    recap["media_giornaliera"] = {k: v / 35 for k, v in totali_periodo.items()}
     
     return recap
 
@@ -314,7 +317,9 @@ elif page == "Tracker":
             st.session_state.editing_day = None
             st.rerun()
         
-        st.title(f"📆 Modifica {selected_day}")
+        # Estrai il numero del giorno per la visualizzazione
+        numero_giorno = selected_day.split('_')[1]
+        st.title(f"📆 Modifica Giorno {numero_giorno}")
         
         giorno = st.session_state.meal_plan[selected_day]
         pasti = list(giorno.keys())
@@ -440,21 +445,22 @@ elif page == "Tracker":
         # Calcola i target giornalieri dalla dieta
         dieta_ref = calcola_totali_dieta(st.session_state.dieta_edit)
         
-        # Genera 5 settimane di giorni
+        # Genera 5 settimane di giorni (35 giorni totali)
         giorni_settimana = ["Lun", "Mar", "Mer", "Gio", "Ven", "Sab", "Dom"]
         
         for settimana in range(1, 6):
             st.markdown(f"**Settimana {settimana}**")
             cols = st.columns(7)
             
-            for giorno_idx, giorno_nome in enumerate(giorni_settimana):
+            for giorno_idx in range(7):
                 with cols[giorno_idx]:
-                    # Usa i nomi dei giorni italiani dal JSON
-                    giorni_italiani = ["Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato", "Domenica"]
-                    giorno_completo = giorni_italiani[giorno_idx]
+                    # Calcola il numero del giorno (da 1 a 35)
+                    numero_giorno = (settimana - 1) * 7 + giorno_idx + 1
+                    giorno_id = f"Giorno_{numero_giorno}"
+                    giorno_nome_breve = giorni_settimana[giorno_idx]
                     
                     # Calcola i totali del giorno
-                    giorno_data = st.session_state.meal_plan[giorno_completo]
+                    giorno_data = st.session_state.meal_plan[giorno_id]
                     totali_giorno = calcola_totali_giorno(giorno_data)
                     
                     # Calcola la percentuale rispetto al target
@@ -473,12 +479,12 @@ elif page == "Tracker":
                     
                     # Bottone per ogni giorno
                     if st.button(
-                        f"{emoji} {giorno_nome}\n{totali_giorno['kcal']:.0f} kcal\n({perc_kcal:.0f}%)",
-                        key=f"btn_{settimana}_{giorno_completo}",
+                        f"{emoji} {giorno_nome_breve}\n{numero_giorno}\n{totali_giorno['kcal']:.0f} kcal\n({perc_kcal:.0f}%)",
+                        key=f"btn_{numero_giorno}",
                         type=tipo_bottone,
                         use_container_width=True
                     ):
-                        st.session_state.editing_day = giorno_completo
+                        st.session_state.editing_day = giorno_id
                         st.rerun()
             
             st.markdown("")  # Spazio tra le settimane
@@ -487,7 +493,7 @@ elif page == "Tracker":
 # Pagina Recap
 # ==========================
 elif page == "Recap":
-    st.title("📊 Recap Settimanale")
+    st.title("📊 Recap Periodo (35 giorni)")
     
     # Calcola il recap attuale
     recap_attuale = calcola_recap_settimanale()
@@ -501,14 +507,16 @@ elif page == "Recap":
     
     st.markdown("---")
     
-    # Tabella riassuntiva giornaliera
+    # Tabella riassuntiva dei giorni
     st.subheader("📅 Valori per Giorno")
     
     data_giorni = []
     for day in DAYS:
         totali_giorno = recap_attuale[day]
+        # Estrai il numero del giorno dal nome (es. "Giorno_1" -> "1")
+        numero_giorno = day.split('_')[1]
         data_giorni.append({
-            "Giorno": day,
+            "Giorno": numero_giorno,
             "Kcal": f"{totali_giorno['kcal']:.0f}",
             "Carboidrati (g)": f"{totali_giorno['carbo']:.1f}",
             "Proteine (g)": f"{totali_giorno['proteine']:.1f}",
@@ -520,20 +528,20 @@ elif page == "Recap":
     
     st.markdown("---")
     
-    # Totali e medie settimanali
+    # Totali e medie del periodo (35 giorni)
     col1, col2 = st.columns(2)
     
     with col1:
-        st.subheader("📈 Totali Settimanali")
-        totali_sett = recap_attuale["totali_settimana"]
-        target_sett = {k: v * 7 for k, v in dieta_ref.items()}
+        st.subheader("📈 Totali del Periodo (35 giorni)")
+        totali_periodo = recap_attuale["totali_periodo"]
+        target_periodo = {k: v * 35 for k, v in dieta_ref.items()}
         
         for nutriente in ["kcal", "carbo", "proteine", "grassi", "fibre"]:
-            delta = totali_sett[nutriente] - target_sett[nutriente]
+            delta = totali_periodo[nutriente] - target_periodo[nutriente]
             unita = "kcal" if nutriente == "kcal" else "g"
             st.metric(
                 f"{nutriente.title()}",
-                f"{totali_sett[nutriente]:.1f} {unita}",
+                f"{totali_periodo[nutriente]:.1f} {unita}",
                 f"{delta:+.1f} {unita}"
             )
     
@@ -556,7 +564,9 @@ elif page == "Recap":
     st.subheader("🔍 Dettagli per Giorno")
     
     for day in DAYS:
-        with st.expander(f"{day} - Dettagli"):
+        # Estrai il numero del giorno per la visualizzazione
+        numero_giorno = day.split('_')[1]
+        with st.expander(f"Giorno {numero_giorno} - Dettagli"):
             giorno_data = st.session_state.meal_plan[day]
             totali_giorno = recap_attuale[day]
             

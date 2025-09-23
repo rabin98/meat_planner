@@ -1,0 +1,2863 @@
+{
+  "meal_plan": {
+    "Giorno_1": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_2": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_3": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_4": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_5": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_6": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_7": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_8": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_9": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_10": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_11": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_12": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_13": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_14": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_15": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_16": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_17": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_18": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_19": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_20": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_21": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_22": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_23": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_24": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_25": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_26": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_27": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_28": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_29": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_30": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_31": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_32": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_33": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_34": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    },
+    "Giorno_35": {
+      "COLAZIONE": [
+        {
+          "alimento": "banana",
+          "quantita": 120
+        },
+        {
+          "alimento": "pane_integrale",
+          "quantita": 50.0
+        },
+        {
+          "alimento": "latte_ps",
+          "quantita": 200
+        },
+        {
+          "alimento": "caffe_amaro",
+          "quantita": 50
+        },
+        {
+          "alimento": "multivitaminico",
+          "quantita": 1
+        }
+      ],
+      "MERENDA 1": [
+        {
+          "alimento": "whey",
+          "quantita": 30
+        },
+        {
+          "alimento": "creatina",
+          "quantita": 5
+        }
+      ],
+      "PRANZO": [
+        {
+          "alimento": "riso",
+          "quantita": 100
+        },
+        {
+          "alimento": "pollo",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ],
+      "MERENDA 2": [
+        {
+          "alimento": "frutto",
+          "quantita": 150
+        },
+        {
+          "alimento": "EAA",
+          "quantita": 10
+        }
+      ],
+      "CENA": [
+        {
+          "alimento": "pasta",
+          "quantita": 100
+        },
+        {
+          "alimento": "tacchino",
+          "quantita": 150
+        },
+        {
+          "alimento": "olio_evo",
+          "quantita": 15
+        }
+      ]
+    }
+  },
+  "recap": {
+    "Giorno_1": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_2": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_3": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_4": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_5": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_6": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_7": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_8": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_9": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_10": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_11": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_12": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_13": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_14": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_15": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_16": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_17": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_18": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_19": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_20": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_21": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_22": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_23": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_24": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_25": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_26": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_27": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_28": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_29": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_30": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_31": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_32": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_33": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_34": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "Giorno_35": {
+      "kcal": 1879.0,
+      "carbs": 247.6,
+      "protein": 127.46000000000001,
+      "fat": 42.459999999999994,
+      "fiber": 15.399999999999999
+    },
+    "settimane": {
+      "settimana_1": {
+        "totali": {
+          "kcal": 13153.0,
+          "carbs": 1733.1999999999998,
+          "protein": 892.2200000000001,
+          "fat": 297.2199999999999,
+          "fiber": 107.80000000000001
+        },
+        "giorni": [
+          "Giorno_1",
+          "Giorno_2",
+          "Giorno_3",
+          "Giorno_4",
+          "Giorno_5",
+          "Giorno_6",
+          "Giorno_7"
+        ]
+      },
+      "settimana_2": {
+        "totali": {
+          "kcal": 13153.0,
+          "carbs": 1733.1999999999998,
+          "protein": 892.2200000000001,
+          "fat": 297.2199999999999,
+          "fiber": 107.80000000000001
+        },
+        "giorni": [
+          "Giorno_8",
+          "Giorno_9",
+          "Giorno_10",
+          "Giorno_11",
+          "Giorno_12",
+          "Giorno_13",
+          "Giorno_14"
+        ]
+      },
+      "settimana_3": {
+        "totali": {
+          "kcal": 13153.0,
+          "carbs": 1733.1999999999998,
+          "protein": 892.2200000000001,
+          "fat": 297.2199999999999,
+          "fiber": 107.80000000000001
+        },
+        "giorni": [
+          "Giorno_15",
+          "Giorno_16",
+          "Giorno_17",
+          "Giorno_18",
+          "Giorno_19",
+          "Giorno_20",
+          "Giorno_21"
+        ]
+      },
+      "settimana_4": {
+        "totali": {
+          "kcal": 13153.0,
+          "carbs": 1733.1999999999998,
+          "protein": 892.2200000000001,
+          "fat": 297.2199999999999,
+          "fiber": 107.80000000000001
+        },
+        "giorni": [
+          "Giorno_22",
+          "Giorno_23",
+          "Giorno_24",
+          "Giorno_25",
+          "Giorno_26",
+          "Giorno_27",
+          "Giorno_28"
+        ]
+      },
+      "settimana_5": {
+        "totali": {
+          "kcal": 13153.0,
+          "carbs": 1733.1999999999998,
+          "protein": 892.2200000000001,
+          "fat": 297.2199999999999,
+          "fiber": 107.80000000000001
+        },
+        "giorni": [
+          "Giorno_29",
+          "Giorno_30",
+          "Giorno_31",
+          "Giorno_32",
+          "Giorno_33",
+          "Giorno_34",
+          "Giorno_35"
+        ]
+      }
+    }
+  }
+}

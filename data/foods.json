@@ -1,4 +1,12 @@
 {
+  "-----": {
+    "kcal": 0,
+    "carbs": 0,
+    "protein": 0,
+    "fat": 0,
+    "fiber": 0,
+    "tipologia": []
+  },
   "EAA": {
     "kcal": 20,
     "carbs": 1,

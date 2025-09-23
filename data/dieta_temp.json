@@ -1,0 +1,68 @@
+{
+  "COLAZIONE": [
+    {
+      "alimento": "banana",
+      "quantita": 120
+    },
+    {
+      "alimento": "latte_ps",
+      "quantita": 200
+    },
+    {
+      "alimento": "caffe_amaro",
+      "quantita": 50
+    },
+    {
+      "alimento": "multivitaminico",
+      "quantita": 1
+    }
+  ],
+  "MERENDA 1": [
+    {
+      "alimento": "whey",
+      "quantita": 30
+    },
+    {
+      "alimento": "creatina",
+      "quantita": 5
+    }
+  ],
+  "PRANZO": [
+    {
+      "alimento": "riso",
+      "quantita": 100
+    },
+    {
+      "alimento": "pollo",
+      "quantita": 150
+    },
+    {
+      "alimento": "olio_evo",
+      "quantita": 15
+    }
+  ],
+  "MERENDA 2": [
+    {
+      "alimento": "frutto",
+      "quantita": 150
+    },
+    {
+      "alimento": "EAA",
+      "quantita": 10
+    }
+  ],
+  "CENA": [
+    {
+      "alimento": "pasta",
+      "quantita": 100
+    },
+    {
+      "alimento": "tacchino",
+      "quantita": 150
+    },
+    {
+      "alimento": "olio_evo",
+      "quantita": 15
+    }
+  ]
+}
